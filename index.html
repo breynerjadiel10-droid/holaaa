@@ -63,7 +63,7 @@
         <a id="openSpotify" href="https://open.spotify.com/track/2k6FKrR0wDIs6xCtU51GZ7" target="_blank" rel="noopener">Abrir en Spotify</a>
       </div>
 
-      <div class="question">ME PERDONAS?</div>
+      <div class="question">¿ME PERDONAS?</div>
       <div class="btns">
         <button id="yesBtn" aria-label="Sí">SI</button>
         <button id="noBtn" aria-label="No">NO</button>
@@ -100,7 +100,7 @@
     no.addEventListener('click', (e)=>{
       const rect = e.target.getBoundingClientRect();
       const centerX = rect.left + rect.width/2; const centerY = rect.top + rect.height/2;
-      const batches = 12;
+      const batches = 120;
       for(let i=0;i<batches;i++){
         const span = document.createElement('span');
         span.className = 'emoji'; span.textContent = '🙄';
